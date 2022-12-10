@@ -6,8 +6,8 @@ import paradise from '../../assets/projectImages/paradise.png';
 const Portfolio = () => {
     return (
         <section id='portfolio'>
-            <h2 className='text-2xl font-bold text-center'>My Recent Work</h2>
-            <h3 className='text-xl font-bold text-center'>Portfolio</h3>
+            <h2 className='text-2xl font-bold text-center text-cyan-300'>Project ShowCase</h2>
+            <h3 className='text-xl font-bold text-center text-cyan-300'>My Recent Work</h3>
             <div className='grid lg:grid-cols-3 sm:grid-cols-1 my-10 mx-20'>
                 <div className="card card-compact w-80 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...">
                     <figure><img src={resala} alt="" /></figure>
