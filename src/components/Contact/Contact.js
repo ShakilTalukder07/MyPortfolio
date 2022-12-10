@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_5lfnm6h', 'template_dzdf3pi', form.current, 'KhpRBlUblX-y3YEuH')
+
+        e.target.reset()
+    }
+
     return (
         <section id='contact'>
             <h2 className='text-xl font-bold text-center'>Get In Touch</h2>
             <h5 className='text-2xl font-bold text-center'>Contact Me</h5>
-            <div className='flex'>
-                <div>
+            <div className='flex flex-col sm:flex-row'>
+                <div className='gap-4'>
                     <div className="card w-72 bg-transparent shadow-2xl">
                         <div className="card-body">
                             <h4>Email</h4>
@@ -30,11 +41,12 @@ const Contact = () => {
                     </div>
                 </div>
                 <div>
-                    <form className='flex flex-col mx-40 shadow-2xl'>
-                        <input type="text" name='name' placeholder='Your Full Name' className="input w-full input-bordered max-w-xs bg-transparent" required />
-                        <input type="email" name='email' placeholder='Your Email' className="input w-full input-bordered max-w-xs bg-transparent" required />
-                        <textarea type="message" rows='7' placeholder='Your Message' required className='input w-full max-w-xs input-bordered bg-transparent' />
-                        <button></button>
+                    <form ref={form} onSubmit={sendEmail}
+                        className='flex flex-col ml-28 shadow-3xl gap-8 my-20'>
+                        <input type="text" name='name' placeholder='Your Full Name' className="input w-96 input-bordered max-w-xs bg-sky-400 text-white shadow-2xl" required />
+                        <input type="email" name='email' placeholder='Your Email' className="input w-96 input-bordered max-w-xs  bg-sky-400 text-white" required />
+                        <textarea type="message" rows='7' placeholder='Your Message' required className='input w-96 h-32 max-w-xs input-bordered bg-sky-400 text-white' />
+                        <button className='btn btn-primary w-80'>Send Message</button>
                     </form>
                 </div>
             </div>
