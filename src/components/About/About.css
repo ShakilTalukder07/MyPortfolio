@@ -1,0 +1,7 @@
+.about {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 15rem;
+    height: 18rem;
+    overflow: hidden;
+
+}

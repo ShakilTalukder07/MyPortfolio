@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-import { AiOutlineHome, AiOutlineUser, AiOutlineBook } from 'react-icons/ai'
-import { RiServiceFill } from 'react-icons/ri'
-import { BiMessageRoundedAdd } from 'react-icons/bi'
 
 const Navbar = () => {
     const [activeNav, setActiveNav] = useState('#')
@@ -9,7 +6,7 @@ const Navbar = () => {
         <nav>
             <div className="navbar bg-transparent">
                 <div className="flex-1">
-                    <a className="btn btn-ghost normal-case text-xl">Shakil Talukder</a>
+                    <a href='/' className="btn btn-ghost normal-case text-xl">Shakil Talukder</a>
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">
