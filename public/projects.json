@@ -5,7 +5,8 @@
         "home_img": "https://i.ibb.co/YWNLCCc/resala.png",
         "secondPage": "https://i.ibb.co/rxwfhtv/resaala-home.png",
         "thirdPage": "https://i.ibb.co/PcJwb9v/all-sellers.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+        "description": "RESALA, is a resale car sell and buying website. User can buy and sells his/her desired car. Users can create accounts as a buyer or sellers. Buyers can purchase products and pay for that products via card. The seller can add a product for sale. He can mark a product as it is available or sold. If the product is available, he can advertise that product on the home page. The admin role is also functional on this website, the admin can control all types of activity. Admin can delete a buyer or seller. He can also verify a seller.",
+        "technology":"React, React router dom, Javascript, Node.js, Express JS, MongoDB, Firebase, Stripe, TailwindCSS, CSS, Html"
     },
     {
         "service_id": "02",
@@ -13,7 +14,7 @@
         "home_img": "https://i.ibb.co/nRjRBRN/quiz1.png",
         "secondPage": "https://i.ibb.co/5W00r0D/quiz2.png",
         "thirdPage": "https://i.ibb.co/3hqBx6q/quiz3.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+        "description": "Quiz Hub is a fully responsive web application, where someone can play quizzes about React, JavaScript, CSS, and Git. For the play quiz users have to log in first, If a user clicks on a wrong answer it would provide a false answer alert and If a user clicks on a right answer it would provide a right answer alert. We use an eye button to know the correct answer."
     },
     {
         "service_id": "03",
@@ -21,6 +22,6 @@
         "home_img": "https://i.ibb.co/PzdXkjP/genox1.png",
         "secondPage": "https://i.ibb.co/j65Mkyd/genox2.png",
         "thirdPage": "https://i.ibb.co/5hyqM1N/genox3.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+        "description": "GenOx web technology is an online teaching-related website. Where a company sells various types of courses. Such as web development, App development, Database course, Backend technology, and many more. Various type of courses is available in a specific category. To buy a course users have to create an account. Users can download details of that course. Users can make payments for that course via card."
     }
 ]

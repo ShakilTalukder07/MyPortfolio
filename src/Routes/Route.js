@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import Blog from "../components/Blog/Blog";
 import Checkout from "../components/Checkout/Checkout";
 import Home from "../components/Home/Home";
 import Portfolio from "../components/Portfolio/Portfolio";
@@ -14,13 +15,17 @@ const router = createBrowserRouter([
                 element: <Home></Home>
             },
             {
-                path: '/',
+                path: '/portfolio',
                 element: <Portfolio></Portfolio>
             },
             {
                 path: 'checkout/:id',
                 element: <Checkout></Checkout>,
                 loader: ({params})=> fetch(`http://localhost:5000/projects/${params.id}`)
+            },
+            {
+                path: '/blog',
+                element: <Blog></Blog>
             }
         ]
     }
