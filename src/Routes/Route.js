@@ -21,7 +21,7 @@ const router = createBrowserRouter([
             {
                 path: 'checkout/:id',
                 element: <Checkout></Checkout>,
-                loader: ({params})=> fetch(`http://localhost:5000/projects/${params.id}`)
+                loader: ({ params }) => fetch(`https://my-portfolio-server-navy.vercel.app/projects/${params.id}`)
             },
             {
                 path: '/blog',

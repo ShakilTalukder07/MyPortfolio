@@ -5,12 +5,12 @@ const Portfolio = () => {
     const [allProjects, setAllProjects] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/projects')
+        fetch('https://my-portfolio-server-navy.vercel.app/projects')
             .then(res => res.json())
             .then(data => setAllProjects(data))
     }, [])
 
-    console.log(allProjects);
+    console.log(allProjects)
     return (
         <section id='portfolio' className='my-28'>
             <h2 className='text-center text-2xl font-bold text-cyan-300'>Portfolio</h2>
