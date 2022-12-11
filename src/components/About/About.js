@@ -2,16 +2,16 @@ import React from 'react';
 import './About.css'
 import about from '../../assets/images/about.JPG'
 import { BsFillPeopleFill } from 'react-icons/bs'
-import {FaAward} from 'react-icons/fa'
-import {HiFolder} from 'react-icons/hi'
+import { FaAward } from 'react-icons/fa'
+import { HiFolder } from 'react-icons/hi'
 
 const About = () => {
     return (
         <section id='about' className='my-10'>
-            <h2 className='text-center text-cyan-300'>Get To Know</h2>
-            <h3 className='text-xl font-bold text-center text-cyan-300'>About Me</h3>
+            <h2 className='text-center text-2xl font-bold  text-cyan-300'>Get To Know</h2>
+            <h3 className='text-center text-cyan-300'>About Me</h3>
             <div>
-                <div className="hero bg-transparent">
+                <div className="hero bg-transparent mt-6">
                     <div className="hero-content flex-col lg:flex-row-reverse">
                         <div>
                             <img className='shadow-lg about rounded-2xl' alt='' src={about} />

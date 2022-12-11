@@ -13,9 +13,9 @@ const Contact = () => {
     }
 
     return (
-        <section id='contact'>
-            <h2 className='text-center text-cyan-300'>Get In Touch</h2>
-            <h5 className='text-xl font-bold text-center text-cyan-300'>Contact Me</h5>
+        <section id='contact' className='my-10'>
+            <h2 className='text-center text-2xl font-bold text-cyan-300'>Get In Touch</h2>
+            <h5 className='text-center text-cyan-300'>Contact Me</h5>
             <div className='flex flex-col sm:flex-row'>
                 <div className='gap-4 mx-28'>
                     <div className="card w-72 bg-transparent shadow-2xl">
