@@ -7,7 +7,7 @@ const Experience = () => {
             <h2 className='text-center text-2xl font-bold  text-cyan-300'>What Skills I Have</h2>
             <h3 className='text-center text-cyan-300'>My Experience</h3>
             <div className='flex flex-col sm:flex-row gap-6 justify-center mx-10 my-14'>
-                <div className="card w-96 bg-cyan-900 shadow-xl">
+                <div className="card w-96 bg-cyan-900 hover:bg-blue-900 shadow-xl">
                     <div className="card-body">
                         <h2 className="font-bold text-center mb-4">FRONTEND DEVELOPMENT</h2>
                         <div className='grid grid-cols-2'>
@@ -44,7 +44,7 @@ const Experience = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-cyan-900 shadow-xl">
+                <div className="card w-96 bg-cyan-900 hover:bg-blue-900 shadow-xl">
                     <div className="card-body">
                         <h2 className="font-bold text-center mb-4">BACKEND DEVELOPMENT</h2>
                         <div className='grid grid-cols-2'>
