@@ -1,11 +1,16 @@
 import React, { useEffect, useState } from 'react';
+// import { useParams } from 'react-router-dom';
 import Projects from './Projects';
 
 const Portfolio = () => {
     const [allProjects, setAllProjects] = useState([]);
 
+    // let projectId = useParams()
+
+    // const displayProject = parseInt(projectId.projectId)
+
     useEffect(() => {
-        fetch('https://my-portfolio-server-navy.vercel.app/projects')
+        fetch('projects.json')
             .then(res => res.json())
             .then(data => setAllProjects(data))
     }, [])

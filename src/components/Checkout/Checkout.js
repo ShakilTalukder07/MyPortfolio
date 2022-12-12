@@ -1,8 +1,13 @@
-import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { useLoaderData, useParams } from 'react-router-dom';
+
+
 
 const Checkout = () => {
     const { title, home_img, secondPage, thirdPage, description, technology } = useLoaderData()
+
+    
+
     return (
         <div>
             <div>

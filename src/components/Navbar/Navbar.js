@@ -6,10 +6,10 @@ const Navbar = () => {
         <nav>
             <div className="navbar bg-transparent">
                 <div className="flex-1">
-                    <a href='/' className="btn btn-ghost normal-case text-xl">Shakil</a>
+                    <a href='/' className="btn btn-ghost normal-case text-3xl">Shakil</a>
                 </div>
                 <div className="flex-none">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal px-1 mr-10">
                         <li><a href='/'>Home</a></li>
                         {/* <li><a href='#about'>About</a></li> */}
                         {/* <li><a href='#experience'>Experience</a></li> */}
