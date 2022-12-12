@@ -36,7 +36,7 @@ const Portfolio = () => {
                             <p className=''>Resala is a simple car resale and buy People can buy and sell his/her desire car.</p>
                             <div className=" flex justify-between">
                                 <a href="https://resala-5b266.web.app/" className='btn btn-primary ' target='blank'>Live Demo</a>
-                                <Link to="/resala" target='blank' className='btn btn-accent'>View Details</Link>
+                                <Link to="/resala" className='btn btn-accent'>View Details</Link>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ const Portfolio = () => {
                             <p>GenOx web technology is a technology teaching platform. Where people can learn various types of technology.</p>
                             <div className="flex justify-between">
                                 <a href="https://genox-web-technology.web.app/" className='btn btn-primary' target='blank'>Live Demo</a>
-                                <Link to='/genox' target='blank' className='btn btn-accent'>View Details</Link>
+                                <Link to='/genox' className='btn btn-accent'>View Details</Link>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ const Portfolio = () => {
                             <p>Quiz hub is a quiz playing website. Where user can play quiz on various topics. Such as Github, JavaScript and many more.</p>
                             <div className="flex justify-between">
                                 <a href="https://symphonious-bonbon-0b9c78.netlify.app/" className='btn btn-primary' target='blank'>Live Demo</a>
-                                <Link to="/quizhub" target='blank' className='btn btn-accent'>View Details</Link>
+                                <Link to="/quizhub" className='btn btn-accent'>View Details</Link>
                             </div>
                         </div>
                     </div>
