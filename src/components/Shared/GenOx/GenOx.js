@@ -15,7 +15,14 @@ const GenOx = () => {
                         <img src={genox3} className="rounded-lg shadow-2xl h-96 w-1/3" alt='' />
                     </div>
                     <div>
-                        <p className='my-5 mx-10'><span className='text-xl font-bold'>Project Features: </span>GenOx web technology is an online teaching-related website. Where a company sells various types of courses. Such as web development, App development, Database course, Backend technology, and many more. Various type of courses is available in a specific category. To buy a course users have to create an account. Users can download details of that course. Users can make payments for that course via card.</p>
+                        <p className='my-5 mx-10'><span className='text-xl font-bold'>Project Features: <br /> </span> <br />
+                            1. GenOx web technology is a fully responsive web application. <br />
+                            2. company provides various types of courses. Such as web development, App development, Database course, Backend technology, and many more. <br />
+                            3. Various type of courses is available in a specific category. <br />
+                            4. To buy a course users have to create an account. <br />
+                            5. Users can download details of that course. <br />
+                            6. Users can make payments for that course via card.
+                        </p>
 
                         <p className='mb-5 mx-10'><span className='text-xl font-bold'>Technology Used:
                         </span> React, React router dom, Javascript, Node.js, Express JS, MongoDB, Firebase, Stripe, TailwindCSS, CSS, Html</p>
