@@ -1,6 +1,6 @@
 [
     {
-        "service_id": "01",
+        "id": "01",
         "title": "Car Selling Website",
         "home_img": "https://i.ibb.co/YWNLCCc/resala.png",
         "secondPage": "https://i.ibb.co/rxwfhtv/resaala-home.png",
@@ -10,7 +10,7 @@
         "technology": "React, React router dom, Javascript, Node.js, Express JS, MongoDB, Firebase, Stripe, TailwindCSS, CSS, Html"
     },
     {
-        "service_id": "02",
+        "id": "02",
         "title": "Quiz Application",
         "home_img": "https://i.ibb.co/nRjRBRN/quiz1.png",
         "secondPage": "https://i.ibb.co/5W00r0D/quiz2.png",
@@ -20,7 +20,7 @@
         "technology": "React, React router dom, Javascript, Node.js, Express JS, MongoDB, Firebase,  TailwindCSS, CSS, Html"
     },
     {
-        "service_id": "03",
+        "id": "03",
         "title": "Technology Tech Website",
         "home_img": "https://i.ibb.co/PzdXkjP/genox1.png",
         "secondPage": "https://i.ibb.co/j65Mkyd/genox2.png",

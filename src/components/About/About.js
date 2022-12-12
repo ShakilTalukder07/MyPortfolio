@@ -18,22 +18,22 @@ const About = () => {
                         </div>
                         <div className='w-1/2'>
                             <div className='grid grid-cols-1 lg:grid-cols-3'>
-                                <div className="card w-56 shadow-2xl flex items-center">
-                                    <div className="card-body">
+                                <div className="card w-56 shadow-2xl  flex items-center">
+                                    <div className="card-body bg-violet-900 rounded-lg">
                                         <FaAward></FaAward>
                                         <h2 className="card-title">Experience</h2>
                                         <p>Fresher</p>
                                     </div>
                                 </div>
                                 <div className="card w-56 shadow-2xl flex items-center">
-                                    <div className="card-body">
+                                    <div className="card-body bg-violet-900 rounded-lg px-14">
                                         <BsFillPeopleFill></BsFillPeopleFill>
                                         <h2 className="card-title">Clients</h2>
                                         <p>Not Yet</p>
                                     </div>
                                 </div>
                                 <div className="card w-56 shadow-2xl flex items-center">
-                                    <div className="card-body">
+                                    <div className="card-body bg-violet-900 rounded-lg">
                                         <HiFolder></HiFolder>
                                         <h2 className="card-title">Projects</h2>
                                         <p>20+ Completed</p>

@@ -12,6 +12,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: var(--color-bg);
   color: var(--color-white);
+
+  background-image: url('./assets/images/bg-texture.png');
 }
 
 :root {

@@ -2,7 +2,10 @@ import { createBrowserRouter } from "react-router-dom";
 import Blog from "../components/Blog/Blog";
 import Checkout from "../components/Checkout/Checkout";
 import Home from "../components/Home/Home";
-import Portfolio from "../components/Portfolio/Portfolio";
+// import Portfolio from "../components/Portfolio/Portfolio";
+import GenOx from "../components/Shared/GenOx/GenOx";
+import QuizHub from "../components/Shared/QuizHub/QuizHub";
+import Resala from "../components/Shared/Resala/Resala";
 import Main from "../Layouts/Main";
 
 const router = createBrowserRouter([
@@ -15,12 +18,25 @@ const router = createBrowserRouter([
                 element: <Home></Home>
             },
             {
-                path: '/portfolio',
-                element: <Portfolio></Portfolio>
+                path: '/resala',
+                element: <Resala></Resala>
             },
             {
+                path: '/genox',
+                element: <GenOx></GenOx>
+            },
+            {
+                path: '/quizhub',
+                element: <QuizHub></QuizHub>
+            },
+            // {
+            //     path: '/portfolio',
+            //     element: <Portfolio></Portfolio>
+            // },
+            {
                 path: 'checkout/:id',
-                element: <Checkout></Checkout>
+                element: <Checkout></Checkout>,
+                loader: ({params})=>fetch(`package.json/${params.id}`)
             },
             {
                 path: '/blog',

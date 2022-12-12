@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
     return (
@@ -11,13 +11,13 @@ const Navbar = () => {
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1 mr-10">
                         <li><a href='/'>Home</a></li>
-                        {/* <li><a href='#about'>About</a></li> */}
-                        {/* <li><a href='#experience'>Experience</a></li> */}
-                        {/* <li><a href="#services">Services</a></li> */}
-                        <li><Link to={'/portfolio'}>Portfolio</Link></li>
-                        {/* <li><a href="#testimonial">Testimonials</a></li> */}
-                        <li><Link to={'/blog'}>Blog</Link></li>
-                        {/* <li><a href="#contact">Contact</a></li> */}
+                        <li><HashLink to='/#about'>About</HashLink></li>
+                        <li><HashLink to='/#experience'>Experience</HashLink></li>
+                        {/* <li><HashLink to="/#services">Services</HashLink></li> */}
+                        <li><HashLink to={'/#portfolio'}>Portfolio</HashLink></li>
+                        {/* <li><HashLink to="#testimonial">Testimonials</HashLink></li> */}
+                        <li><HashLink to={'/blog'}>Blog</HashLink></li>
+                        <li><HashLink to="/#contact">Contact</HashLink></li>
                     </ul>
                 </div>
             </div>
