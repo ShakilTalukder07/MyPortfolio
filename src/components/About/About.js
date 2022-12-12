@@ -17,8 +17,8 @@ const About = () => {
                             <img className='shadow-lg about rounded-2xl' alt='' src={about} />
                         </div>
                         <div className='w-1/2'>
-                            <div className='grid grid-cols-1 lg:grid-cols-3'>
-                                <div className="card w-56 shadow-2xl  flex items-center">
+                            <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+                                <div className="card w-56 shadow-2xl flex items-center">
                                     <div className="card-body bg-violet-900 rounded-lg">
                                         <FaAward></FaAward>
                                         <h2 className="card-title">Experience</h2>

@@ -5,7 +5,7 @@ import resala1 from '../../../assets/projectImages/resala.png';
 
 const Resala = () => {
     return (
-        <div>
+        <div id='resala'>
             <p className='my-5 mx-10 font-semibold text-lg underline'>Car Selling Website</p>
             <div className="flex gap-2 flex-col lg:flex-row">
                 <div className=''>
