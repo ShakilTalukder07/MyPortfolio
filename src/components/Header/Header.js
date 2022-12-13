@@ -2,8 +2,11 @@ import React from 'react';
 import profile from '../../assets/images/profile.png'
 import CTA from './CTA';
 import './Header.css'
+import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
+
 
 const Header = () => {
+
     return (
         <div>
             <div className="hero my-16">
@@ -11,7 +14,16 @@ const Header = () => {
                     <div className='w-1/2 ml-10'>
                         <h5 className='text-4xl font-bold m-2'>Hello, I'm</h5>
                         <h1 className='text-4xl font-bold m-2'>Shakil Talukder</h1>
-                        <h5 className='text-2xl text-red-400 font-bold m-2'>FrontEnd Developer</h5>
+                        <h5 className='text-2xl text-red-400 font-bold m-2'>
+                            <Typewriter
+                                words={['FrontEnd Developer', 'React Developer', 'MERN Stack Developer']}
+                                loop={100}
+                                cursor
+                                typeSpeed={70}
+                                deleteSpeed={50}
+                                delaySpeed={1000}
+                            />
+                        </h5>
                         <CTA></CTA>
                     </div>
                     <div className='shadow-lg me'>

@@ -4,11 +4,6 @@ import { HashLink } from 'react-router-hash-link';
 const Navbar = () => {
     return (
         <nav>
-
-
-
-            {/* ============================================================================ */}
-
             <div className="navbar bg-transparent">
                 <div className="navbar-start">
                     <div className="dropdown">
