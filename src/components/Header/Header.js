@@ -2,7 +2,7 @@ import React from 'react';
 import profile from '../../assets/images/profile.png'
 import CTA from './CTA';
 import './Header.css'
-import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
+import { Typewriter } from 'react-simple-typewriter'
 
 
 const Header = () => {

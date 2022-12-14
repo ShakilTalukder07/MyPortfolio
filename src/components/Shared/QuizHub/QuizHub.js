@@ -16,16 +16,15 @@ const QuizHub = () => {
                     </div>
                     <div>
                         <p className='my-5 mx-10'><span className='text-xl font-bold'>Project Features: <br /> </span> <br />
-                        1. Quiz Hub is a fully responsive web application. <br />
-                        2. Where user can play quizzes about React, JavaScript, CSS, and Git.<br/>
-                        3. For the play quiz users have to log in first. <br />
-                        4. If a user clicks on a wrong answer it would provide a false answer alert. <br />
-                        5. If a user clicks on a right answer it would provide a right answer alert. <br />
-                        6. We use an eye button to know the correct answer.
+                            1. Quiz Hub is a fully responsive web application. <br />
+                            2. Where user can play quizzes about React, JavaScript, CSS, and Git.<br />
+                            3. If a user clicks on a wrong answer it would provide a false answer alert. <br />
+                            4. If a user clicks on a right answer it would provide a right answer alert. <br />
+                            5. We use an eye button to know the correct answer.
                         </p>
 
                         <p className='mb-5 mx-10'><span className='text-xl font-bold'>Technology Used:
-                        </span> React, React router dom, Javascript, Node.js, Express JS, MongoDB, Firebase, TailwindCSS, CSS, Html</p>
+                        </span> React, React router dom, Javascript, TailwindCSS, CSS, Html</p>
                     </div>
                 </div>
             </div>

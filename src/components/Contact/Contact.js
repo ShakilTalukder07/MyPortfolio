@@ -6,9 +6,7 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
         emailjs.sendForm('service_5lfnm6h', 'template_dzdf3pi', form.current, 'KhpRBlUblX-y3YEuH')
-
         e.target.reset()
     }
 
@@ -16,7 +14,7 @@ const Contact = () => {
         <section id='contact' className='my-10'>
             <h2 className='text-center text-2xl font-bold text-cyan-300'>Get In Touch</h2>
             <h5 className='text-center text-cyan-300'>Contact Me</h5>
-            <div className='flex flex-col sm:flex-row'>
+            <div className='grid grid-flow-row md:grid-flow-row lg:grid-flow-col'>
                 <div className='gap-4 mx-28'>
                     <div className="card w-72 bg-transparent shadow-2xl">
                         <div className="card-body">
