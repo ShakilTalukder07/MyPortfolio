@@ -12,27 +12,27 @@ const About = () => {
             <h3 className='text-center text-cyan-300'>About Me</h3>
             <div>
                 <div className="hero bg-transparent mt-6">
-                    <div className="hero-content flex-col lg:flex-row-reverse">
+                    <div className="hero-content flex-col lg:flex-row-reverse md:flex-row-reverse">
                         <div>
-                            <img className='shadow-lg about rounded-2xl' alt='' src={about} />
+                            <img className='shadow-lg about rounded-2xl ml-4' alt='' src={about} />
                         </div>
                         <div className='w-1/2'>
-                            <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-                                <div className="card w-56 shadow-2xl flex items-center">
+                            <div className='grid gap-4  grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+                                <div className="card w-[230px] shadow-2xl flex items-center">
                                     <div className="card-body bg-violet-900 rounded-lg">
                                         <FaAward></FaAward>
                                         <h2 className="card-title">Experience</h2>
                                         <p>Fresher</p>
                                     </div>
                                 </div>
-                                <div className="card w-56 shadow-2xl flex items-center">
+                                <div className="card w-[230px] shadow-2xl flex items-center">
                                     <div className="card-body bg-violet-900 rounded-lg px-14">
                                         <BsFillPeopleFill></BsFillPeopleFill>
                                         <h2 className="card-title">Clients</h2>
                                         <p>Not Yet</p>
                                     </div>
                                 </div>
-                                <div className="card w-56 shadow-2xl flex items-center">
+                                <div className="card w-[230px] shadow-2xl flex items-center">
                                     <div className="card-body bg-violet-900 rounded-lg">
                                         <HiFolder></HiFolder>
                                         <h2 className="card-title">Projects</h2>

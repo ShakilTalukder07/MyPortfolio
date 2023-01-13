@@ -21,7 +21,7 @@ const Portfolio = () => {
             <h2 className='text-center text-2xl font-bold text-cyan-300'>Portfolio</h2>
             <h3 className='text-center text-cyan-300 mb-10'>Most Recent Works</h3>
             <div >
-                <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-4 sm:grid-cols-1 my-10 mx-20'>
+                <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-4 sm:grid-cols-1 my-10 mx-8'>
                     {/* {
                         allProjects.length && allProjects.map(singleProject => <Projects
                             key={singleProject.id}
