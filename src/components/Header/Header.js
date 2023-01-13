@@ -26,7 +26,7 @@ const Header = () => {
                         </h5>
                         <CTA></CTA>
                     </div>
-                    <div className='shadow-lg me'>
+                    <div className='shadow-lg'>
                         <img className='' src={profile} alt='/' />
                     </div>
                 </div>
