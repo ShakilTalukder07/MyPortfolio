@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 // import Projects from './Projects';
-import resala1 from '../../assets/projectImages/resala.png';
 import genox1 from '../../assets/projectImages/genox1.png';
-import quiz1 from '../../assets/projectImages/quiz1.png'
-import { HashLink } from 'react-router-hash-link';
+import quiz1 from '../../assets/projectImages/quiz1.png';
+import doctorsHome from '../../assets/projectImages/doctorsHome.png';
+import newsPaper from '../../assets/projectImages/newsPaper.png';
+import paradise from '../../assets/projectImages/paradise.png';
+import resala from '../../assets/projectImages/resala.png'
 
 const Portfolio = () => {
     // const [allProjects, setAllProjects] = useState([]);
@@ -21,7 +23,7 @@ const Portfolio = () => {
             <h2 className='text-center text-2xl font-bold text-cyan-300'>Portfolio</h2>
             <h3 className='text-center text-cyan-300 mb-10'>Most Recent Works</h3>
             <div >
-                <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-4 sm:grid-cols-1 my-10 mx-8'>
+                <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-3 sm:grid-cols-1 my-10 mx-20'>
                     {/* {
                         allProjects.length && allProjects.map(singleProject => <Projects
                             key={singleProject.id}
@@ -29,18 +31,51 @@ const Portfolio = () => {
                         >
                         </Projects>)
                     } */}
-                    <div className="card card-compact w-80 shadow-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-200 ...">
-                        <figure><img src={resala1} alt="" /></figure>
+                    <div className="card card-compact mb-5 w-80 shadow-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-104 duration-200 ...">
+                        <figure><img src={resala} alt="" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Car Selling Website</h2>
-                            <p className=''>Resala is a simple car resale and buy People can buy and sell his/her desire car.</p>
+                            <p className=''>Resala is a simple car resale and buy website. People can buy and sell his/her desire car.</p>
                             <div className=" flex justify-between">
                                 <a href="https://resala-5b266.web.app/" className='btn btn-primary ' target='blank'>Live Demo</a>
                                 <Link to="/resala" className='btn btn-accent'>View Details</Link>
                             </div>
                         </div>
                     </div>
-                    <div className="card card-compact w-80 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 ...">
+                    <div className="card card-compact mb-5 w-80 shadow-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-104 duration-200 ...">
+                        <figure><img src={doctorsHome} alt="" /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Car Selling Website</h2>
+                            <p className=''>Doctors Home is a treatment providing website. People can booked slot to get appointment.</p>
+                            <div className=" flex justify-between">
+                                <a href="https://doctors-portal-83d63.web.app/" className='btn btn-primary ' target='blank'>Live Demo</a>
+                                <Link to="/resala" className='btn btn-accent'>View Details</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card card-compact mb-5 w-80 shadow-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-104 duration-200 ...">
+                        <figure><img src={paradise} alt="" /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Car Selling Website</h2>
+                            <p className=''>Doctors Home is a treatment providing website. People can booked slot to get appointment.</p>
+                            <div className=" flex justify-between">
+                                <a href="https://paradise-14be2.web.app/" className='btn btn-primary ' target='blank'>Live Demo</a>
+                                <Link to="/resala" className='btn btn-accent'>View Details</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card card-compact mb-5 w-80 shadow-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-104 duration-200 ...">
+                        <figure><img src={newsPaper} alt="" /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Car Selling Website</h2>
+                            <p className=''>Doctors Home is a treatment providing website. People can booked slot to get appointment.</p>
+                            <div className=" flex justify-between">
+                                <a href="https://papaya-cranachan-30bce6.netlify.app/" className='btn btn-primary ' target='blank'>Live Demo</a>
+                                <Link to="/resala" className='btn btn-accent'>View Details</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card card-compact mb-5 w-80 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-104 duration-300 ...">
                         <figure><img src={genox1} alt="" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">GenOx Web Technology</h2>
@@ -51,7 +86,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card card-compact w-80 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 ...">
+                    <div className="card card-compact mb-5 w-80 shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-104 duration-300 ...">
                         <figure><img src={quiz1} alt="" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Play online quiz</h2>
