@@ -1,5 +1,6 @@
 import React from 'react';
-import profile from '../../assets/images/profile.png'
+import profile from '../../assets/images/profile.png';
+import firstImage from '../../assets/images/firstImage.png'
 import CTA from './CTA';
 import './Header.css'
 import { Typewriter } from 'react-simple-typewriter'
@@ -27,7 +28,7 @@ const Header = () => {
                         <CTA></CTA>
                     </div>
                     <div className='shadow-lg me'>
-                        <img className='' src={profile} alt='/' />
+                        <img className='h-[320px]' src={firstImage} alt='/' />
                     </div>
                 </div>
             </div>

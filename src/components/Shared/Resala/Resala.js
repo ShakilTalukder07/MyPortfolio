@@ -8,7 +8,7 @@ const Resala = () => {
         <div id='resala'>
             <p className='my-5 mx-10 font-semibold text-lg underline'>Car Selling Website</p>
             <div className="flex gap-2 flex-col lg:flex-row">
-                <div className=''>
+                <div>
                     <div className="flex gap-2 flex-col lg:flex-row mx-10">
                         <img src={resala1} className="rounded-lg shadow-2xl h-96 w-1/3" alt='' />
                         <img src={resala2} className="rounded-lg shadow-2xl h-96 w-1/3" alt='' />

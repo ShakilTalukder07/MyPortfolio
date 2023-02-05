@@ -45,10 +45,10 @@ const Portfolio = () => {
                     <div className="card card-compact mb-5 w-80 shadow-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-104 duration-200 ...">
                         <figure><img src={doctorsHome} alt="" /></figure>
                         <div className="card-body">
-                            <h2 className="card-title">Car Selling Website</h2>
+                            <h2 className="card-title">Health service providing Website</h2>
                             <p className=''>Doctors Home is a treatment providing website. People can booked slot to get appointment.</p>
                             <div className=" flex justify-between">
-                                <a href="https://doctors-portal-83d63.web.app/" className='btn btn-primary ' target='blank'>Live Demo</a>
+                                <a href="https://doctors-portal-83d63.web.app/" className='btn btn-primary' target='blank'>Live Demo</a>
                                 <Link to="/resala" className='btn btn-accent'>View Details</Link>
                             </div>
                         </div>

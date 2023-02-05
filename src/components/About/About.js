@@ -36,7 +36,7 @@ const About = () => {
                                     <div className="card-body bg-violet-900 rounded-lg">
                                         <HiFolder></HiFolder>
                                         <h2 className="card-title">Projects</h2>
-                                        <p>20+ Completed</p>
+                                        <p>30+ Completed</p>
                                     </div>
                                 </div>
                             </div>
