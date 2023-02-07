@@ -6,7 +6,7 @@ import doctorsHome3 from '../../../assets/projectImages/doctorsHome4.png';
 const DoctorsHome = () => {
     return (
         <div id='doctorsHome'>
-        <p className='my-5 mx-10 font-semibold text-lg underline'>Car Selling Website</p>
+        <p className='my-5 mx-10 font-semibold text-lg underline'>Treatment providing Website</p>
         <div className="flex gap-2 flex-col lg:flex-row">
             <div>
                 <div className="flex gap-2 flex-col lg:flex-row mx-10">

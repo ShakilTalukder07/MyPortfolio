@@ -49,7 +49,7 @@ const Portfolio = () => {
                             <p className=''>Doctors Home is a treatment providing website. People can booked slot to get appointment.</p>
                             <div className=" flex justify-between">
                                 <a href="https://doctors-portal-83d63.web.app/" className='btn btn-primary' target='blank'>Live Demo</a>
-                                <Link to="/resala" className='btn btn-accent'>View Details</Link>
+                                <Link to="/doctorsHome" className='btn btn-accent'>View Details</Link>
                             </div>
                         </div>
                     </div>

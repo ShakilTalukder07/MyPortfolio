@@ -7,6 +7,7 @@ import GenOx from "../components/Shared/GenOx/GenOx";
 import QuizHub from "../components/Shared/QuizHub/QuizHub";
 import Resala from "../components/Shared/Resala/Resala";
 import Main from "../Layouts/Main";
+import DoctorsHome from "../components/Shared/DoctorsHome/DoctorsHome";
 
 const router = createBrowserRouter([
     {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
             {
                 path: '/quizhub',
                 element: <QuizHub></QuizHub>
+            },
+            {
+                path: '/doctorsHome',
+                element: <DoctorsHome></DoctorsHome>
             },
             // {
             //     path: '/portfolio',
