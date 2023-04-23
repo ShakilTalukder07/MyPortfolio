@@ -22,7 +22,7 @@ const About = () => {
                                     <div className="card-body bg-violet-900 rounded-lg">
                                         <FaAward></FaAward>
                                         <h2 className="card-title">Experience</h2>
-                                        <p>Fresher</p>
+                                        <p>1 year</p>
                                     </div>
                                 </div>
                                 <div className="card w-[230px] shadow-2xl flex items-center">

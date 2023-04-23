@@ -29,7 +29,6 @@ code {
     monospace;
 }
 
-::placeholder { 
-  color: white;
-  /* opacity: 1;  */
+::placeholder {
+  color: black;
 }
