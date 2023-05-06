@@ -3,7 +3,7 @@ import genox1 from '../../assets/projectImages/genox1.png';
 import doctorsHome from '../../assets/projectImages/doctorsHome.png';
 import newsPaper from '../../assets/projectImages/newsPaper.png';
 import paradise from '../../assets/projectImages/paradise.png';
-import resala from '../../assets/projectImages/resala.png';
+import autoTrader from '../../assets/projectImages/resala.png';
 import eventManagement from "../../assets/projectImages/eventmart.png"
 
 const Portfolio = () => {
@@ -25,7 +25,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="card card-compact mb-5 w-80 shadow-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-104 duration-200 ...">
-                        <figure><img src={resala} alt="" /></figure>
+                        <figure><img src={autoTrader} alt="" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Car Selling Website</h2>
                             <p className=''>Auto trader is a simple car resale and buy website. People can buy and sell his/her desire car.</p>

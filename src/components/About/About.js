@@ -41,7 +41,7 @@ const About = () => {
                                 </div>
                             </div>
                             <p className="py-6 text-justify">I'm a frontend-based full-stack developer from Bangladesh. I love web development because I can showcase my creativity in this work. I want to see myself as a skilled web developer with my hard work. I want to work with someone who can help me develop both my professional and personal abilities. Currently, I'm studying Computer Science and Engineering at National University.</p>
-                            <a href="#contact" className='btn bg-white text-sky-500 shadow-2xl'>Let's Talk</a>
+                            <a href="#contact" className='btn bg-white text-sky-500 shadow-2xl text-xs md:text-sm lg:text-sm'>Let's Talk</a>
                         </div>
                     </div>
                 </div>
