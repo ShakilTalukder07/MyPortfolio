@@ -1,11 +1,12 @@
 import React from 'react';
 
+
 const Footer = () => {
     return (
         <div>
             <footer className="footer bg-sky-900 p-10 text-neutral-content shadow-2xl">
                 <div>
-                    <p>Shakil Talukder's Portfolio<br />All Rights Reserved</p>
+                    <p className='mt-6'>© 2023. All rights reserved by Shakil Talukder</p>
                 </div>
                 <div>
                     <span className="footer-title">Social</span>

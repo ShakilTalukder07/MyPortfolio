@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'
-import about from '../../assets/images/about.JPG'
+import about from '../../assets/images/about.gif'
 import { BsFillPeopleFill } from 'react-icons/bs'
 import { FaAward } from 'react-icons/fa'
 import { HiFolder } from 'react-icons/hi'
@@ -12,10 +12,7 @@ const About = () => {
             <h3 className='text-center text-cyan-300'>About Me</h3>
             <div>
                 <div className="hero bg-transparent mt-6">
-                    <div className="hero-content flex-col lg:flex-row-reverse md:flex-row-reverse">
-                        <div>
-                            <img className='shadow-lg about rounded-2xl ml-4' alt='' src={about} />
-                        </div>
+                    <div className="hero-content flex-col lg:flex-row md:flex-row-reverse">
                         <div className='w-1/2'>
                             <div className='grid gap-4  grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                                 <div className="card w-[230px] shadow-2xl flex items-center">
@@ -42,6 +39,9 @@ const About = () => {
                             </div>
                             <p className="py-6 text-justify">I'm a frontend-based full-stack developer from Bangladesh. I love web development because I can showcase my creativity in this work. I want to see myself as a skilled web developer with my hard work. I want to work with someone who can help me develop both my professional and personal abilities. Currently, I'm studying Computer Science and Engineering at National University.</p>
                             <a href="#contact" className='btn bg-white text-sky-500 shadow-2xl text-xs md:text-sm lg:text-sm'>Let's Talk</a>
+                        </div>
+                        <div>
+                            <img className='shadow-lg about rounded-2xl ml-4 bg-[#1F1F38]' alt='' src={about} />
                         </div>
                     </div>
                 </div>
